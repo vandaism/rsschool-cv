@@ -1,16 +1,53 @@
-What should a Junior Developer Resume contain?
+# Vanda Irkhuzhyna
 
-! Important: write your Resume in English if you can, if possible
+📍 currently based and legally eligible to work in Portugal\
+📮 [Email](vanda.irkhuzhyna@gmail.com)\
+📥 [Telegram](t.me/vandaism)
 
-1. First Name, Last Name (real ones)
-2. Contact Info (add several ways to contact you)
-3. Summary (your goal, wishes, reveal what is important for you, what do you want and why.
-   Some kind of self-presentation. In case of lack of experience Junior Developer sells his/her potential, his/her passion and ability to learn fast. You shouldn't think that everybody is going to teach you when you come to the workplace . Rather being a Junior means always
-   learning new things from everywhere etc.).
-4. Skills (e.g. programming languages, frameworks, methodologies, version control, tools etc.)
-5. Code examples (LATEST)
-6. Experience (for a Junior Dev it means all kinds of experience: coding tests, projects from courses,
-   freelance projects - wherever they had the opportunity to demonstrate skills they have.
-   Also it would be awesome if you add links to source code)
-7. Education (including courses, seminars, lectures, online learning)
-8. English (elaborate on what kind of practice you had, if any, how long it lasted and so on)
+## Summary
+
+👩‍💻 A11y-driven self-taught Frontend Developer\
+🤝 Teamplayer, ex PM
+
+<details>
+  <summary>More on my motivation and goals</summary>
+  
+  Growing up as a millennial, I had a phone in my hands and was constantly engaged with the internet and social media, which significantly impacted my life. It opened up many possibilities I would not have had otherwise. 
+  
+  I experienced how the internet has been a disruptive innovation and a robust social equalizer. As a curious and grateful consumer, I am eventually <mark>becoming</mark> a creator myself. My professional goal is to make the web a better place for everyone, one page at a time!
+
+</details>
+
+## Skills
+
+- HTML5
+- CSS3
+- Git
+- Critical thinking
+- Problem solving
+
+## Code examples
+
+`let greet = () => console.log('Hey folks!'); `
+
+## Experience
+
+### Wandmaker @ Ollivander's Wand Shop
+
+## Education
+
+### Hogwarts School of Witchcraft and Wizardry
+
+**Ravenclaw House**
+
+## Communication and Language Skills
+
+- Active listening
+- Cross-cultural communication
+- Facilitating group discussions
+
+| Language         |        Comprehension level         |
+| ---------------- | :--------------------------------: |
+| **Italian**      |  _Full professional proficiency_   |
+| **English**      | _Professional working proficiency_ |
+| **EU Portugese** |   _Limited working proficiency_    |
