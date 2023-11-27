@@ -1,0 +1,177 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Space Mono", monospace;
+  font-size: 56px;
+  line-height: 80px;
+}
+
+p,
+span,
+th,
+td,
+.button,
+.navigation__link,
+.contacts {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button {
+  cursor: pointer;
+  outline: 0;
+  color: #fff;
+  background-color: #0161cf;
+  border-color: #0161cf;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  :hover {
+    color: #fff;
+    background-color: #7cb1ff;
+    border-color: #17CB1FF;
+  }
+}
+.container {
+  line-height: 1.5;
+  margin: auto;
+  width: 90%;
+}
+
+.main__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation__link {
+  width: 15%;
+}
+
+.mark {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.8em 0.3em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(1, 97, 207, 0.1),
+    rgba(124, 177, 255, 0.7) 4%,
+    rgba(0, 124, 255, 0.3)
+  );
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.intro__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro__text {
+  width: 50%;
+}
+
+.intro__image {
+  width: 50%;
+}
+
+.intro__heading {
+  font-size: 35px;
+  color: #0161cf;
+}
+
+.intro__text {
+  font-size: 25px;
+}
+
+.intro__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social__link {
+  width: 33%;
+}
+
+.leftimg {
+  float: left;
+  margin: 7px 7px 7px 7px;
+}
+
+.skill {
+  display: block;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #0161cf;
+}
+
+.css {
+  width: 80%;
+  background-color: #0161cf;
+}
+
+.js {
+  width: 60%;
+  background-color: #0161cf;
+}
+
+.figma,
+.ux,
+.testing {
+  width: 60%;
+  background-color: #0161cf;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__section {
+  width: 33%;
+}
+
+.contacts__list {
+  display: inline;
+}
