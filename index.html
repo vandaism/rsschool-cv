@@ -18,36 +18,87 @@
   <body class="container">
     <header>
       <nav>
-        <ul>
-          <li><a href="#about_me">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contacts">Contacts</a></li>
+        <ul class="main__navigation">
+          <li class="navigation__link">
+            <a target="_blank" href="#about_me">About</a>
+          </li>
+          <li class="navigation__link">
+            <a target="_blank" href="#skills">Skills</a>
+          </li>
+          <li class="navigation__link">
+            <a target="_blank" href="#education">Education</a>
+          </li>
+          <li class="navigation__link">
+            <a target="_blank" href="#experience">Experience</a>
+          </li>
+          <li class="navigation__link">
+            <a target="_blank" href="#projects">Projects</a>
+          </li>
+          <li class="navigation__link">
+            <a target="_blank" href="#contacts">Contacts</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <p>Hi, I am</p>
-        <h1>Vanda Irkhuzhyna</h1>
-        <h2>a frontend developer who values UX and accessibility</h2>
-        <ul>
-          <li><a href="https://twitter.com/">Twitter</a></li>
-          <li><a href="https://facebook.com">Facebook</a></li>
-          <li><a href="https://linkedin.com">LinkedIn</a></li>
-        </ul>
-        <a href="#contacts">Get in touch!</a>
+      <section class="intro__container">
+        <div class="intro__text">
+          <p class="intro__greeting">Hi, I am</p>
+          <h1 class="intro__heading">Vanda Irkhuzhyna</h1>
+          <div class="intro__social">
+            <ul>
+              <li class="social__link">
+                <a target="_blank" href="https://twitter.com/"
+                  ><img
+                    src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/twitter.svg"
+                    alt="classic oldschool twitter logo with a birdie"
+                    height="25"
+                  />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://facebook.com"
+                  ><img
+                    src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/facebook.svg"
+                    alt="facebook logo"
+                    height="25"
+                  />
+                </a>
+              </li>
+              <li>
+                <a target="_blank" href="https://linkedin.com"
+                  ><img
+                    src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/linkedin.svg"
+                    alt="linkedin logo"
+                    height="25"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <h2 class="intro__text">
+            a frontend developer who values
+            <span class="mark">UX and accessibility</span>
+          </h2>
+          <a href="#contacts" class="button">Get in touch!</a>
+        </div>
+        <div class="intro__image">
+          <img
+            src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/images/6583018.svg"
+            alt="2D illustration of girl working on PC"
+          />
+        </div>
       </section>
       <section id="about_me">
         <h2>About Me</h2>
-        <img
-          src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/myphoto.jpeg"
-          alt="The photo shows a woman by a body of water, possibly a lake or river. She is turned to the side, not facing the camera, with her hand touching her hair. Her hair is brown and wavy, and she has blue nail polish on her fingernails. She is wearing a dark green knitted, sweater. The setting appears calm and serene, suggesting a moment of contemplation in a natural setting. The woman seems to be enjoying the peace of the outdoors."
-          height="200"
-        />
+
         <p>
+          <img
+            src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/images/myphoto.jpeg"
+            alt="The photo shows a woman by a body of water, possibly a lake or river. She is turned to the side, not facing the camera, with her hand touching her hair. Her hair is brown and wavy, and she has blue nail polish on her fingernails. She is wearing a dark green knitted, sweater. The setting appears calm and serene, suggesting a moment of contemplation in a natural setting. The woman seems to be enjoying the peace of the outdoors."
+            height="200"
+            class="leftimg"
+          />
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
           ab illo inventore veritatis et quasi architecto beatae vitae dicta
@@ -56,14 +107,8 @@
           qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui
           dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed
           quia non numquam eius modi tempora incidunt ut labore et dolore magnam
-          aliquam quaerat voluptatem.
-        </p>
-        <p>
-          Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-          suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-          autem vel eum iure reprehenderit qui in ea voluptate velit esse quam
-          nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
-          voluptas nulla pariatur
+          aliquam quaerat voluptatem. Neque porro quisquam est, qui dolorem
+          ipsum quia dolor sit amet, consectetur
         </p>
       </section>
       <section id="skills">
@@ -72,13 +117,17 @@
           I am a quick learner with a solution-oriented mindset and a passion
           for web development.
         </p>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Figma</li>
-          <li>Reserch for UX</li>
-          <li>Usability Testing</li>
+        <ul class="skills__container">
+          <li><span class="skill html">HTML</span></li>
+          <li><span class="skill css">CSS</span></li>
+          <li><span class="skill js">JavaScript</span></li>
+          <li><span class="skill figma">Figma</span></li>
+          <li>
+            <span class="skill UX">Reserch for UX</span>
+          </li>
+          <li>
+            <span class="skill testing">Usability Testing</span>
+          </li>
         </ul>
       </section>
       <section id="education">
@@ -131,8 +180,11 @@
         <p>This CV is handcrafted by me.</p>
         <p>
           You can also see simple examples of my code on
-          <a href="https://codepen.io/vandaism/pen/qBXRJzg">Codepen</a> or
-          <a href="https://leetcode.com/vandaism/">Leetcode</a>
+          <a target="_blank" href="https://codepen.io/vandaism/pen/qBXRJzg"
+            >Codepen</a
+          >
+          or
+          <a target="_blank" href="https://leetcode.com/vandaism/">Leetcode</a>
         </p>
       </section>
       <section id="contacts">
@@ -150,36 +202,71 @@
             <label for="message">Message</label>
             <input type="text" name="message" id="message" required />
           </p>
-          <button type="submit">Lets talks!</button>
+          <button type="submit" class="button">Lets talk!</button>
         </form>
         <p>
           Let's discuss how I may be of assistance to you. If you are interested
           in my services, kindly send me a message via the contact form or
           connect with me through
         </p>
-        <ul>
-          <li><a href="mailto:vanda.irkhuzhyna@gmail.com">email</a>,</li>
-          <li><a href="tg://msg?user_id=vandaism">Telegram</a>, or</li>
-          <li><a href="tel:+12345678910">phone</a>.</li>
+
+        <ul class="contacts__list">
+          <li>
+            <a class="contacts" href="mailto:vanda.irkhuzhyna@gmail.com"
+              >email</a
+            >,
+          </li>
+          <li>
+            <a class="contacts" href="tg://msg?user_id=vandaism">Telegram</a>,
+            or
+          </li>
+          <li><a class="contacts" href="tel:+12345678910">phone</a>.</li>
         </ul>
       </section>
     </main>
-    <footer>
-      <section>
+    <footer class="footer__container">
+      <section class="footer__section">
         <h4 class="visually-hidden">Links</h4>
         <ul>
-          <li><a href="https://github.com/vandaism">GitHub</a></li>
-          <li><a href="https://behance.com">Behance</a></li>
+          <li>
+            <a target="_blank" href="https://github.com/vandaism">
+              <img
+                src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/github.svg"
+                alt="GitHub logo"
+                height="75"
+              />
+            </a>
+          </li>
+          <li>
+            <a target="_blank" href="https://behance.com">
+              <img
+                src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/behance.svg"
+                alt="Behance logo"
+                height="75"
+              />
+            </a>
+          </li>
         </ul>
       </section>
-      <section>
+      <section class="footer__section">
         <h4 class="visually-hidden">Date</h4>
+        <p id="date-container"></p>
+        <script>
+          function getCurrentDateAndTime() {
+            const dateTime = new Date();
+            return dateTime.toLocaleString();
+          }
+
+          const dateDisplay = document.getElementById("date-container");
+
+          dateDisplay.innerHTML = getCurrentDateAndTime();
+        </script>
       </section>
-      <section>
+      <section class="footer__section">
         <h4 class="visually-hidden">Credits</h4>
         <a href="https://rs.school/">
           <img
-            src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logo.svg"
+            src="/Users/vandaism/Documents/GitHub/rsschool-cv/images/logos/the_rolling_scopes_school.svg"
             alt="Rolling Scopes School logo: circular, featuring a stylized comet with a flaming tail. The comet's head is the upper half of a coding bracket symbol. The words HTML, CSS, NODEJS, and JAVASCRIPT are encircling the comet, representing web technologies. The school's name, the Rolling Scopes, is at the bottom, inside the circular boundary. The design suggests a dynamic blend of coding and motion"
             width="75"
             height="75"
